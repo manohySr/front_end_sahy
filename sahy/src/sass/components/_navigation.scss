@@ -1,0 +1,18 @@
+.navigation {
+    margin-top: 3rem;
+    li {
+        a {
+            color: $color-text-light;
+            font-size: 2rem;
+            transition: all .2s;
+        }
+        &:not(:nth-child(2)):hover {
+            @include cross-srew-left;
+        }
+        &:nth-child(2):hover {
+            transform: skewX(10deg) skewY(-2deg) scale(1.1);
+            text-shadow: -2rem 1rem 1rem rgba($color: $color-text-dark, $alpha: 1.0);
+        }
+        margin-right: 4rem;
+    }
+}

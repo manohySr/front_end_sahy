@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+}
+.form {
+    width: 40%;
+    color: $color-text-dark;
+    font-size: 1.6rem;
+    overflow-y: scroll;
+    margin: 2rem auto;
+    height: 60vh;
+    .label {
+        margin-left: 1rem;
+        margin-bottom: .5rem;
+        label {
+            text-transform: uppercase;
+            letter-spacing: .2rem;
+        }
+    }
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+input[type=text],
+input[type=date],
+input[type=email],
+textarea {
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+textarea {
+    height: 25rem;
+}
+
+#button {
+    font-size: 1.4rem;
+    margin-bottom: 5rem;
+}

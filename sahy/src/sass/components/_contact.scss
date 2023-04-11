@@ -1,0 +1,52 @@
+.contact {
+    width: 80%;
+    background: $color-secondary;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50vh;
+    &__input {
+        display: block;
+        margin-bottom: 2rem;
+        padding: 1.5rem;
+        width: 35%;
+        font-size: 1.6rem;
+    }
+}
+
+.other-contact {
+    position: absolute;
+    width: 30rem;
+    height: 10rem;
+    background-color: $color-primary;
+    z-index: 10;
+    top: -5rem;
+    &:first-child {
+        left: 0;
+    }
+    &:last-child {
+        right: 0;
+    }
+}
+
+.btn--contact {
+    padding: 1rem;
+    font-size: 1.6rem;
+    width: 20%;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+
+.contact-container {
+    width: 80%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraph--contact {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}

@@ -1,0 +1,41 @@
+.developpeur {
+    width: 30rem;
+    padding: 2rem;
+    background-color: $color-secondary;
+    margin: 2rem 3rem;
+    border-radius: .5rem;
+    position: relative;
+    transition: all .2s;
+    &__image {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    &__description {
+        color: rgba($color: $color-text-light, $alpha: .8);
+        font-size: 1.6rem;
+        span {
+            display: block;
+            margin-top: -.5rem;
+        }
+
+        &__degree, &__titre {
+            text-transform: uppercase;
+        }
+    }
+    .developpeur__emoji {
+        position: absolute;
+        top: .5rem;
+        right: .5rem;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.container__developpeur:hover .developpeur:not(:hover) {
+    transform: scale(.9);
+}

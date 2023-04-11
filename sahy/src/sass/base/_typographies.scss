@@ -1,0 +1,92 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+body {
+    font-family: monospace;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.7;
+    padding: 3rem;
+}
+
+.header {
+    height: 95vh;
+}
+
+.heading-primary {
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    &--main {
+        font-size: 5rem;
+        margin-bottom: 3rem;
+        letter-spacing: .3rem;
+        animation: moveInLeft 2s ease-out;
+        font-family: cursive;
+    }
+    &--sub {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        letter-spacing: .3rem;
+        animation: moveInRight 2s ease-out;
+    }
+}
+
+.heading-secondary {
+    color: transparent;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .2rem;
+}
+
+.heading-secondary {
+    background-image: linear-gradient(to right, $color-secondary, $color-primary);
+    @include heading-text-inherit;
+
+    &:hover {
+        @include style-srew;
+    }
+}
+
+.heading-secondary--light {
+    background-image: linear-gradient(to right, $color-secondary, $color-text-light);
+    @include heading-text-inherit;
+    &:hover {
+        @include style-srew;
+    }
+}
+
+.heading-secondary--dark {
+    background-color: $color-primary;
+    @include heading-text-inherit;
+    &:hover {
+        @include style-srew;
+    }
+}
+
+.heading-tertiary {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all .2s;
+    @include style-screw-n;
+    &:hover {
+        @include style-screw-p;
+    }
+
+    &:first-child {
+        @include style-screw-p;
+        &:hover {
+            @include style-screw-n;
+        }
+    }
+}
+
+.paragraph {
+    font-size: 1.6rem;
+}
+

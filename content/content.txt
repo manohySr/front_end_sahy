@@ -1,0 +1,3 @@
+About section:
+Qui suis je ?
+Facesahy'all est une application web de reconnaissance faciale, qui peut être intégrer dans n'importe quelle organisation. Je suis à votre disposition à tout moment. Nous avons été développer par des étudiants de l'ESPA. L'idée est née le 21 mars 2023.

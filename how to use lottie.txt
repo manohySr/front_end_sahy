@@ -1,0 +1,19 @@
+import Lottie from 'react-lottie';
+import animationData from './your-animation.json';
+
+const options = {
+  loop: true,
+  autoplay: true,
+  animationData: animationData,
+  rendererSettings: {
+    preserveAspectRatio: 'xMidYMid slice'
+  }
+};
+
+function App() {
+  return (
+    <div className="App">
+      <Lottie options={options} />
+    </div>
+  );
+}

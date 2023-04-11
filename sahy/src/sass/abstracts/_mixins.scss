@@ -1,0 +1,55 @@
+@mixin cross-srew-left {
+    transform: skewX(10deg) skewY(2deg) scale(1.1);
+    text-shadow: 2rem 1rem 1rem rgba($color: $color-text-dark, $alpha: 1.0);
+}
+
+@mixin style-srew {
+    transform: skewX(20deg);
+}
+
+@mixin style-screw-n {
+    transform: skewY(2deg);
+    text-shadow: 2rem 1rem 1rem rgba($color: $color-text-dark, $alpha: 1.0);
+}
+
+@mixin style-screw-p {
+    transform: skewY(-2deg);
+    text-shadow: 2rem 1rem 1rem rgba($color: $color-text-dark, $alpha: 1.0);
+}
+
+@mixin style-button-inherit {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 2rem;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 1.6rem;
+}
+
+@mixin style-button-active {
+    transform: translateY(-1px);
+    box-shadow: 0 .5rem 1rem rgba($color-text-dark, $alpha: .2);
+    transform: translateY(-1px);
+    box-shadow: 0 .5rem 1rem rgba($color-text-dark, $alpha: .2);
+}
+
+@mixin heading-text-inherit {
+    background-clip: text;
+    color: transparent;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    display: inline-block;
+    transition: all .2s;
+    background-clip: text;
+    color: transparent;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    display: inline-block;
+    transition: all .2s;
+}
