@@ -4,7 +4,7 @@
 ## It's the frontend app of a facerecognition app build with react
 ## How to run the project,
 ###   1) clone the repository and install all the dependencies
-###   2) clone the repository my backend sahy repositories and install all the dependencies []
+###   2) clone the repository my backend sahy repositories and install all the dependencies [https://github.com/manohySr/back_end_sahy]
 ###   3) for lunching => npm run start
 ## Some preview
 
