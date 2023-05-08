@@ -5,7 +5,7 @@
 ## How to run the project,
 ###   1) clone the repository and install all the dependencies
 ###   2) clone the repository my backend sahy repositories and install all the dependencies [https://github.com/manohySr/back_end_sahy]
-###   3) for lunching => npm run start
+###   3) for running => npm run start
 ## Some preview
 
 ![image](https://user-images.githubusercontent.com/86122918/236625738-8da70849-696d-44d7-b8a7-ee2bd2edd365.png)
